@@ -15,6 +15,7 @@ jobs:
 
       - name: Run Build
         run: |
-          qmake -spec macx-xcode
           ls -l
+          qmake -spec macx-xcode
+          
           
